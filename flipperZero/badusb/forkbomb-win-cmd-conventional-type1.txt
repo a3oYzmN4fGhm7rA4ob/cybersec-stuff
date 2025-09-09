@@ -1,4 +1,4 @@
-REM runs the funny windows fork bomb
+REM Runs a fork bomb on a Microsoft Windows system.
 DEFAULT_DELAY 200
 GUI
 STRING cmd

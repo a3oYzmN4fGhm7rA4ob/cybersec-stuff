@@ -1,4 +1,4 @@
-REM runs the funny linux fork bomb
+REM Runs a Linux fork bomb on most distros.
 DEFAULT_DELAY 200
 GUI
 STRING terminal

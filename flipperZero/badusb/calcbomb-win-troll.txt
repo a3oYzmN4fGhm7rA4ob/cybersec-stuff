@@ -1,4 +1,4 @@
-REM Generates a script that spawns infinite calculators and ruins a windows machine until you restart it.
+REM Generates a script that spawns infinite calculators and ruins a Microsoft Windows machine until you restart it.
 DEFULT_DELAY 250
 GUI
 STRING notepad

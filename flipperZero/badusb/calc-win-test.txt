@@ -1,4 +1,4 @@
-REM A test script that just opens the calculator
+REM A test script that just opens the calculator on Microsoft Windows computers.
 DEFULT_DELAY 250
 GUI r
 STRING calc.exe

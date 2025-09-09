@@ -1,4 +1,4 @@
-REM Generates a 100gb undeletable file on an unpatched windows 10 or 11 system.
+REM Generates a 100gb undeletable file on an unpatched Microsoft Windows 10 system, the issue of it being undeletable coming from an MSDOS quirk.
 DEFULT_DELAY 250
 GUI
 STRING notepad
