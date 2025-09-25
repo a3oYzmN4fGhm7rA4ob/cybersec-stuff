@@ -1,0 +1,8 @@
+REM A defanged fork bomb payload.
+DEFAULT_DELAY 200
+GUI
+STRING terminal
+ENTER
+STRING echo pretend this is a fork bomb
+ENTER
+

