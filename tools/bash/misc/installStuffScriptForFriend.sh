@@ -30,6 +30,7 @@ cd ~
 
 # veracrypt
 curl --output VeraCrypt-1.26.24-x86_64.AppImage https://launchpad.net/veracrypt/trunk/1.26.24/+download/VeraCrypt-1.26.24-x86_64.AppImage
+echo !Notice! VeraCrypt standalone AppImage downloaded.
 
 # element
 sudo apt install -y wget apt-transport-https
