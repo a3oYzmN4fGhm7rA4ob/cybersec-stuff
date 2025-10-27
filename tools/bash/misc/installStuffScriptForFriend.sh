@@ -22,12 +22,6 @@ tar -zxvf tooling.md.tar.gz
 # sqlmap
 git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev
 
-# EvilLimiter
-git clone https://github.com/bitbrute/evillimiter.git
-cd evillimiter
-sudo python3 setup.py install
-cd ~
-
 # veracrypt
 curl --output VeraCrypt-1.26.24-x86_64.AppImage https://launchpad.net/veracrypt/trunk/1.26.24/+download/VeraCrypt-1.26.24-x86_64.AppImage
 echo !Notice! VeraCrypt standalone AppImage downloaded.
