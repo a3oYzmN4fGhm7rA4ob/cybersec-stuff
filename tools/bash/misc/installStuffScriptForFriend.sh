@@ -15,6 +15,10 @@ tar -zxvf mitmproxy-12.2.0-linux-x86_64.tar.gz
 # torctl
 git clone https://github.com/a3oYzmN4fGhm7rA4ob/linuxmint-torctl-installer && cd linuxmint-torctl-installer && sudo bash install_torctl.sh && cd ~
 
+# my funny tooling doc idk
+wget https://github.com/a3oYzmN4fGhm7rA4ob/cybersec-stuff/tree/main/misc/tooling.md.tar.gz
+tar -zxvf tooling.md.tar.gz
+
 # sqlmap
 git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev
 
@@ -33,6 +37,10 @@ sudo apt install -y wget apt-transport-https
 ‍echo "deb [signed-by=/usr/share/keyrings/element-io-archive-keyring.gpg] https://packages.element.io/debian/ default main" | sudo tee /etc/apt/sources.list.d/element-io.list
 sudo apt update
 sudo apt install element-desktop
+
+# tor browser
+echo !Notice! Tor Browser is being downloaded. You\'ll want to unpack the file itself later. I\'m too lazy to do it rn.
+wget https://www.torproject.org/dist/torbrowser/14.5.8/tor-browser-linux-x86_64-14.5.8.tar.xz
 
 # finally, install metasploit
 curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && \
