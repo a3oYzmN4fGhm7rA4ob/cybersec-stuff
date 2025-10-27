@@ -3,7 +3,7 @@
 cd ~
 
 # Tools installed via apt
-sudo apt install git nmap wireshark aircrack-ng nikto python3-full python3-scapy hping3 wafw00f exiftool gobuster hydra arp-scan hashcat kleopatra ghostwriter
+sudo apt install git nmap wireshark aircrack-ng nikto python3-full python3-scapy hping3 wafw00f exiftool gobuster hydra arp-scan hashcat kleopatra ghostwriter python3-colorama python3-netaddr python3-tqdm python3-scapy python3-terminaltables
 
 # Other tools installed automatically
 
