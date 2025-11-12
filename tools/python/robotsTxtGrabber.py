@@ -1,4 +1,4 @@
-# A python script to grab robots.txt from a input website and print the results.
+# A python script to grab robots.txt from a input website and print the results. Kinda useless but I got bored at one point so I made it anyway.
 import argparse, requests # Import modules
 
 def parseArgs(): # Parse script arguments from input
